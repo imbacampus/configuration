@@ -1,0 +1,6 @@
+- name: Deploy aide IDS
+  hosts: all
+  sudo: True
+  gather_facts: True
+  roles:
+    - aide
